@@ -372,3 +372,7 @@ a[href="https://kwes.io"] {
   top: -9999px;
   visibility: hidden;
 }
+
+.kw-field-error-message, .kw-alert {
+  display: none !important;
+}
