@@ -4817,6 +4817,11 @@ a[href="https://kwes.io"] {
   visibility: hidden;
 }
 
+/* line 376, src/sass/components/_base.scss */
+.kw-field-error-message, .kw-alert {
+  display: none !important;
+}
+
 @media screen and (max-width: 576px) {
   /* line 4, src/sass/components/_media.scss */
   .header-top .header-phones .header-phone {
