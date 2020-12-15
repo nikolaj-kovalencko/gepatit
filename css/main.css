@@ -4327,7 +4327,7 @@ p.small {
 
 /* line 48, src/sass/components/_base.scss */
 .header-top .header-phones .header-phone {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: #212529;
 }
@@ -4828,34 +4828,38 @@ a[href="https://kwes.io"] {
     font-size: 1rem;
   }
   /* line 7, src/sass/components/_media.scss */
+  .header-top .header-phones .header-email {
+    font-size: 1rem;
+  }
+  /* line 10, src/sass/components/_media.scss */
   .header-top .header-phones .header-callback {
     font-size: 0.9rem;
   }
-  /* line 14, src/sass/components/_media.scss */
+  /* line 17, src/sass/components/_media.scss */
   .header-content .container {
     background-image: none;
   }
-  /* line 16, src/sass/components/_media.scss */
+  /* line 19, src/sass/components/_media.scss */
   .header-content .container .col-sm-12 {
     padding-right: 0;
   }
-  /* line 19, src/sass/components/_media.scss */
+  /* line 22, src/sass/components/_media.scss */
   .header-content .container .header-offer {
     background-image: none;
   }
-  /* line 21, src/sass/components/_media.scss */
+  /* line 24, src/sass/components/_media.scss */
   .header-content .container .header-offer::before {
     display: none;
   }
-  /* line 24, src/sass/components/_media.scss */
+  /* line 27, src/sass/components/_media.scss */
   .header-content .container .header-offer .header-offer-wrapper {
     margin: 20px;
   }
-  /* line 31, src/sass/components/_media.scss */
+  /* line 34, src/sass/components/_media.scss */
   .main-footer {
     margin-bottom: 65px;
   }
-  /* line 35, src/sass/components/_media.scss */
+  /* line 38, src/sass/components/_media.scss */
   .whatsapp {
     bottom: 0;
     left: 0;
@@ -4876,14 +4880,14 @@ a[href="https://kwes.io"] {
     outline: none;
     width: 100%;
   }
-  /* line 47, src/sass/components/_media.scss */
+  /* line 50, src/sass/components/_media.scss */
   .whatsapp::before {
     margin-right: 20px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  /* line 55, src/sass/components/_media.scss */
+  /* line 58, src/sass/components/_media.scss */
   .review {
     margin: 20px;
   }
