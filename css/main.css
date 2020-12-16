@@ -4305,45 +4305,51 @@ p.small {
 }
 
 /* line 39, src/sass/components/_base.scss */
-.header-top .header-phones {
+.header-top .header-top-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: right;
 }
 
 /* line 45, src/sass/components/_base.scss */
-.header-top .header-phones a {
+.header-top .header-top-right a {
   display: inline-block;
 }
 
 /* line 48, src/sass/components/_base.scss */
-.header-top .header-phones .header-phone {
-  font-size: 1.2rem;
+.header-top .header-top-right .header-phone {
+  font-size: 1.3rem;
   text-decoration: none;
   color: #212529;
 }
 
 /* line 53, src/sass/components/_base.scss */
-.header-top .header-phones .header-callback {
+.header-top .header-top-right .header-email {
+  font-size: 1.3rem;
+}
+
+/* line 56, src/sass/components/_base.scss */
+.header-top .header-top-right .header-callback {
   font-size: 1rem;
   margin-left: 10px;
 }
 
-/* line 60, src/sass/components/_base.scss */
+/* line 63, src/sass/components/_base.scss */
 .header-content {
   margin-top: 95px;
 }
 
-/* line 62, src/sass/components/_base.scss */
+/* line 65, src/sass/components/_base.scss */
 .header-content .container {
   background-image: url("../img/main-bg.jpg");
   background-repeat: no-repeat;
@@ -4351,7 +4357,7 @@ p.small {
   padding: 0;
 }
 
-/* line 67, src/sass/components/_base.scss */
+/* line 70, src/sass/components/_base.scss */
 .header-content .container .header-offer {
   background-color: #e6f2ff;
   position: relative;
@@ -4360,12 +4366,12 @@ p.small {
   margin-left: -15px;
 }
 
-/* line 73, src/sass/components/_base.scss */
+/* line 76, src/sass/components/_base.scss */
 .header-content .container .header-offer .header-offer-wrapper {
   margin: 20px 0 20px 40px;
 }
 
-/* line 76, src/sass/components/_base.scss */
+/* line 79, src/sass/components/_base.scss */
 .header-content .container .header-offer::before {
   display: inline-block;
   width: 200px;
@@ -4381,12 +4387,12 @@ p.small {
   z-index: -10;
 }
 
-/* line 88, src/sass/components/_base.scss */
+/* line 91, src/sass/components/_base.scss */
 .header-content .container .header-offer h1 {
   font-size: 1.4rem;
 }
 
-/* line 92, src/sass/components/_base.scss */
+/* line 95, src/sass/components/_base.scss */
 .header-content .container .header-form {
   padding: 20px;
   border-radius: 5px;
@@ -4394,24 +4400,24 @@ p.small {
   font-size: 0.9rem;
 }
 
-/* line 97, src/sass/components/_base.scss */
+/* line 100, src/sass/components/_base.scss */
 .header-content .container .header-form .form-header {
   font-size: 1.4rem;
   line-height: 1rem;
 }
 
-/* line 101, src/sass/components/_base.scss */
+/* line 104, src/sass/components/_base.scss */
 .header-content .container .header-form .call-to-action {
   margin-bottom: -5px;
 }
 
-/* line 104, src/sass/components/_base.scss */
+/* line 107, src/sass/components/_base.scss */
 .header-content .container .header-form .form-input button {
   font-size: 1rem;
   margin-top: 10px;
 }
 
-/* line 108, src/sass/components/_base.scss */
+/* line 111, src/sass/components/_base.scss */
 .header-content .container .header-form .form-input input {
   margin-top: 10px;
   margin-right: 15px;
@@ -4419,17 +4425,17 @@ p.small {
   border-radius: 2px;
 }
 
-/* line 114, src/sass/components/_base.scss */
+/* line 117, src/sass/components/_base.scss */
 .header-content .container .header-form .header-manager {
   font-size: 0.6rem;
 }
 
-/* line 116, src/sass/components/_base.scss */
+/* line 119, src/sass/components/_base.scss */
 .header-content .container .header-form .header-manager span {
   font-size: 1.1rem;
 }
 
-/* line 126, src/sass/components/_base.scss */
+/* line 129, src/sass/components/_base.scss */
 .partners-logos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4445,7 +4451,7 @@ p.small {
           justify-content: space-between;
 }
 
-/* line 131, src/sass/components/_base.scss */
+/* line 134, src/sass/components/_base.scss */
 .partners-logos .partner-logo {
   display: inline-block;
   background: url("../img/partners.png") no-repeat;
@@ -4454,69 +4460,69 @@ p.small {
   text-align: left;
 }
 
-/* line 139, src/sass/components/_base.scss */
+/* line 142, src/sass/components/_base.scss */
 .partners-logos .aprazer {
   background-position: -2px -0px;
   width: 340px;
   height: 138px;
 }
 
-/* line 140, src/sass/components/_base.scss */
+/* line 143, src/sass/components/_base.scss */
 .partners-logos .hetero {
   background-position: -344px -0px;
   width: 340px;
   height: 138px;
 }
 
-/* line 141, src/sass/components/_base.scss */
+/* line 144, src/sass/components/_base.scss */
 .partners-logos .lucius {
   background-position: -2px -140px;
   width: 340px;
   height: 138px;
 }
 
-/* line 142, src/sass/components/_base.scss */
+/* line 145, src/sass/components/_base.scss */
 .partners-logos .natco {
   background-position: -344px -140px;
   width: 340px;
   height: 138px;
 }
 
-/* line 143, src/sass/components/_base.scss */
+/* line 146, src/sass/components/_base.scss */
 .partners-logos .reddys {
   background-position: -2px -280px;
   width: 340px;
   height: 138px;
 }
 
-/* line 144, src/sass/components/_base.scss */
+/* line 147, src/sass/components/_base.scss */
 .partners-logos .zydus {
   background-position: -344px -280px;
   width: 340px;
   height: 138px;
 }
 
-/* line 148, src/sass/components/_base.scss */
+/* line 151, src/sass/components/_base.scss */
 .licenses .main-license {
   text-align: center;
 }
 
-/* line 151, src/sass/components/_base.scss */
+/* line 154, src/sass/components/_base.scss */
 .licenses .other {
   font-weight: bold;
 }
 
-/* line 154, src/sass/components/_base.scss */
+/* line 157, src/sass/components/_base.scss */
 .licenses a {
   color: #212529;
 }
 
-/* line 157, src/sass/components/_base.scss */
+/* line 160, src/sass/components/_base.scss */
 .licenses img {
   max-width: 90%;
 }
 
-/* line 162, src/sass/components/_base.scss */
+/* line 165, src/sass/components/_base.scss */
 .overwhelmed, .questions {
   background-image: -webkit-gradient(linear, right top, left top, from(#0195B4), to(#0D3468));
   background-image: linear-gradient(to left, #0195B4 0%, #0D3468 100%);
@@ -4526,19 +4532,19 @@ p.small {
   text-align: center;
 }
 
-/* line 168, src/sass/components/_base.scss */
+/* line 171, src/sass/components/_base.scss */
 .overwhelmed .wrapper, .questions .wrapper {
   max-width: 550px;
   display: inline-block;
   text-align: left;
 }
 
-/* line 172, src/sass/components/_base.scss */
+/* line 175, src/sass/components/_base.scss */
 .overwhelmed .wrapper p, .questions .wrapper p {
   margin-bottom: 20px;
 }
 
-/* line 176, src/sass/components/_base.scss */
+/* line 179, src/sass/components/_base.scss */
 .overwhelmed .call-form, .questions .call-form {
   border: 2px solid #fff;
   border-radius: 10px;
@@ -4546,7 +4552,7 @@ p.small {
   text-align: center;
 }
 
-/* line 181, src/sass/components/_base.scss */
+/* line 184, src/sass/components/_base.scss */
 .overwhelmed .call-form form, .questions .call-form form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4557,12 +4563,12 @@ p.small {
           flex-direction: row;
 }
 
-/* line 185, src/sass/components/_base.scss */
+/* line 188, src/sass/components/_base.scss */
 .overwhelmed .call-form .call-to-action, .questions .call-form .call-to-action {
   font-size: 1.3rem;
 }
 
-/* line 188, src/sass/components/_base.scss */
+/* line 191, src/sass/components/_base.scss */
 .overwhelmed .call-form .input-phone, .questions .call-form .input-phone {
   margin-right: 15px;
   -webkit-box-flex: 1;
@@ -4571,12 +4577,12 @@ p.small {
   margin-bottom: 15px;
 }
 
-/* line 193, src/sass/components/_base.scss */
+/* line 196, src/sass/components/_base.scss */
 .overwhelmed .call-form .btn, .questions .call-form .btn {
   margin-bottom: 15px;
 }
 
-/* line 197, src/sass/components/_base.scss */
+/* line 200, src/sass/components/_base.scss */
 .overwhelmed .call-us, .questions .call-us {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -4584,7 +4590,7 @@ p.small {
   position: relative;
 }
 
-/* line 202, src/sass/components/_base.scss */
+/* line 205, src/sass/components/_base.scss */
 .overwhelmed .call-us::before, .questions .call-us::before {
   content: '\f385';
   font-family: iconfont;
@@ -4597,30 +4603,30 @@ p.small {
           transform: rotate(30deg);
 }
 
-/* line 211, src/sass/components/_base.scss */
+/* line 214, src/sass/components/_base.scss */
 .overwhelmed .call-us span, .questions .call-us span {
   font-size: 1.5rem;
 }
 
-/* line 213, src/sass/components/_base.scss */
+/* line 216, src/sass/components/_base.scss */
 .overwhelmed .call-us span a, .questions .call-us span a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 219, src/sass/components/_base.scss */
+/* line 222, src/sass/components/_base.scss */
 .overwhelmed .call-to-action-2, .questions .call-to-action-2 {
   text-align: center;
 }
 
-/* line 221, src/sass/components/_base.scss */
+/* line 224, src/sass/components/_base.scss */
 .overwhelmed .call-to-action-2 .btn, .questions .call-to-action-2 .btn {
   border-color: #fff;
   color: #fff;
   margin-bottom: 30px;
 }
 
-/* line 229, src/sass/components/_base.scss */
+/* line 232, src/sass/components/_base.scss */
 .main-footer {
   background-color: #343a40;
   color: #fff;
@@ -4628,12 +4634,12 @@ p.small {
   font-size: 1rem;
 }
 
-/* line 236, src/sass/components/_base.scss */
+/* line 239, src/sass/components/_base.scss */
 .modal {
   top: 50px;
 }
 
-/* line 238, src/sass/components/_base.scss */
+/* line 241, src/sass/components/_base.scss */
 .modal .close {
   border: none;
   position: absolute;
@@ -4643,32 +4649,32 @@ p.small {
   padding: 0;
 }
 
-/* line 245, src/sass/components/_base.scss */
+/* line 248, src/sass/components/_base.scss */
 .modal .close span {
   font-size: 3rem;
   color: #fff;
 }
 
-/* line 250, src/sass/components/_base.scss */
+/* line 253, src/sass/components/_base.scss */
 .modal .call-form {
   text-align: center;
   font-size: 1.3rem;
   position: relative;
 }
 
-/* line 254, src/sass/components/_base.scss */
+/* line 257, src/sass/components/_base.scss */
 .modal .call-form input {
   max-width: 300px;
   display: inline-block;
   margin-bottom: 20px;
 }
 
-/* line 259, src/sass/components/_base.scss */
+/* line 262, src/sass/components/_base.scss */
 .modal .call-form button {
   display: inline-block;
 }
 
-/* line 265, src/sass/components/_base.scss */
+/* line 268, src/sass/components/_base.scss */
 .pills {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4683,49 +4689,49 @@ p.small {
       justify-content: space-around;
 }
 
-/* line 272, src/sass/components/_base.scss */
+/* line 275, src/sass/components/_base.scss */
 .pill {
   max-width: 320px;
   margin-bottom: 30px;
 }
 
-/* line 275, src/sass/components/_base.scss */
+/* line 278, src/sass/components/_base.scss */
 .pill h2 {
   font-size: 1.7rem;
 }
 
-/* line 278, src/sass/components/_base.scss */
+/* line 281, src/sass/components/_base.scss */
 .pill dl, .pill dt {
   font-size: 1rem;
 }
 
-/* line 281, src/sass/components/_base.scss */
+/* line 284, src/sass/components/_base.scss */
 .pill .call-form {
   text-align: center;
 }
 
-/* line 284, src/sass/components/_base.scss */
+/* line 287, src/sass/components/_base.scss */
 .pill .call-to-action {
   margin-bottom: 7px;
 }
 
-/* line 287, src/sass/components/_base.scss */
+/* line 290, src/sass/components/_base.scss */
 .pill input, .pill button {
   width: 90%;
   display: inline-block;
 }
 
-/* line 291, src/sass/components/_base.scss */
+/* line 294, src/sass/components/_base.scss */
 .pill button {
   margin-top: 10px;
 }
 
-/* line 296, src/sass/components/_base.scss */
+/* line 299, src/sass/components/_base.scss */
 .owl-reviews {
   position: relative;
 }
 
-/* line 300, src/sass/components/_base.scss */
+/* line 303, src/sass/components/_base.scss */
 .review {
   margin: 20px 120px;
   border: 1px solid #6c757d;
@@ -4733,19 +4739,19 @@ p.small {
   padding: 20px 40px;
 }
 
-/* line 305, src/sass/components/_base.scss */
+/* line 308, src/sass/components/_base.scss */
 .review h3 {
   margin-bottom: 30px;
   padding-bottom: 10px;
   border-bottom: 1px solid #6c757d;
 }
 
-/* line 310, src/sass/components/_base.scss */
+/* line 313, src/sass/components/_base.scss */
 .review .review-proofs {
   text-align: left;
 }
 
-/* line 312, src/sass/components/_base.scss */
+/* line 315, src/sass/components/_base.scss */
 .review .review-proofs a {
   display: inline-block;
   max-width: 200px;
@@ -4753,7 +4759,7 @@ p.small {
   position: relative;
 }
 
-/* line 317, src/sass/components/_base.scss */
+/* line 320, src/sass/components/_base.scss */
 .review .review-proofs a::before {
   position: absolute;
   content: '\f3d5';
@@ -4764,7 +4770,7 @@ p.small {
   color: #212529;
 }
 
-/* line 330, src/sass/components/_base.scss */
+/* line 333, src/sass/components/_base.scss */
 .form-name {
   opacity: 0;
   position: absolute;
@@ -4775,7 +4781,7 @@ p.small {
   z-index: -1;
 }
 
-/* line 340, src/sass/components/_base.scss */
+/* line 343, src/sass/components/_base.scss */
 .whatsapp {
   position: fixed;
   left: -10px;
@@ -4793,13 +4799,13 @@ p.small {
           box-shadow: 7px 8px 12px -2px rgba(0, 0, 0, 0.66);
 }
 
-/* line 354, src/sass/components/_base.scss */
+/* line 357, src/sass/components/_base.scss */
 .whatsapp:hover {
   color: white;
   text-decoration: none;
 }
 
-/* line 358, src/sass/components/_base.scss */
+/* line 361, src/sass/components/_base.scss */
 .whatsapp::before {
   content: '';
   display: inline-block;
@@ -4810,14 +4816,14 @@ p.small {
   mask-image: url("../img/whatsapp.svg");
 }
 
-/* line 370, src/sass/components/_base.scss */
+/* line 373, src/sass/components/_base.scss */
 a[href="https://kwes.io"] {
   position: absolute;
   top: -9999px;
   visibility: hidden;
 }
 
-/* line 376, src/sass/components/_base.scss */
+/* line 379, src/sass/components/_base.scss */
 .kw-field-error-message, .kw-alert {
   display: none !important;
 }
