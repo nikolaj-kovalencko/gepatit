@@ -36,19 +36,22 @@ p.small {
       font-weight: bold;
     }
   }
-  .header-phones {
+  .header-top-right {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: right;
     a {
       display: inline-block;
     }
     .header-phone {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       text-decoration: none;
       color: $body-color;
+    }
+    .header-email {
+      font-size: 1.3rem;
     }
     .header-callback {
       font-size: 1rem;
